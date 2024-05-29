@@ -16,21 +16,11 @@ const categoryList = [
     {
         name: 'jacket'
     },
-    {
-        name: 'mobile'
-    },
-    {
-        name: 'laptop'
-    },
+    
     {
         name: 'shoes'
-    },
-    {
-        name: 'home'
-    },
-    {
-        name: 'books'
     }
+    
 ]
 
 const AddProductPage = () => {

@@ -21,7 +21,7 @@ const Navbar = () => {
 
     // navList Data
     const navList = (
-        <ul className="flex space-x-3 text-black font-medium text-md px-5 ">
+        <ul className="flex space-x-9 text-black font-bold text-xl px-5 ">
             {/* Home */}
             <li>
                 <Link to={'/'}>Home</Link>
@@ -30,6 +30,7 @@ const Navbar = () => {
             {/* All Product */}
             <li>
                 <Link to={'/allproduct'}>All Product</Link>
+                
             </li>
 
             {/* Signup */}
@@ -63,6 +64,7 @@ const Navbar = () => {
                     Cart({cartItems.length})
                 </Link>
             </li>
+            
         </ul>
     )
     return (
@@ -72,7 +74,7 @@ const Navbar = () => {
                 {/* left  */}
                 <div className="left py-3 lg:py-0">
                     <Link to={'/'}>
-                        <h2 className=" font-bold text-black text-2xl text-center">Zap-Kart</h2>
+                        <h2 className=" font-bold text-black text-3xl text-center px-4">Zap-Kart</h2>
                     </Link>
                 </div>
 

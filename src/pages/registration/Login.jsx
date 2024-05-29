@@ -95,7 +95,7 @@ const Login = () => {
                                 email: e.target.value
                             })
                         }}
-                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-cyan-200'
+                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-slate-800'
                     />
                 </div>
 
@@ -111,7 +111,7 @@ const Login = () => {
                                 password: e.target.value
                             })
                         }}
-                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-cyan-200'
+                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-slate-800'
                     />
                 </div>
 
@@ -120,7 +120,7 @@ const Login = () => {
                     <button
                         type='button'
                         onClick={userLoginFunction}
-                        className='bg-cyan-500 hover:bg-cyan-600 w-full text-white text-center py-2 font-bold rounded-md '
+                        className=' w-full text-white text-center py-2 font-bold rounded-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...'
                     >
                         Login
                     </button>

@@ -84,8 +84,8 @@ const Signup = () => {
 
                 {/* Top Heading  */}
                 <div className="mb-5">
-                    <h2 className='text-center text-2xl font-bold text-cyan-500 '>
-                        Signup
+                    <h2 className='text-center text-4xl font-bold text-cyan-500 '>
+                        SignUp
                     </h2>
                 </div>
 
@@ -101,7 +101,7 @@ const Signup = () => {
                                 name: e.target.value
                             })
                         }}
-                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-cyan-200'
+                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-slate-800'
                     />
                 </div>
 
@@ -117,7 +117,7 @@ const Signup = () => {
                                 email: e.target.value
                             })
                         }}
-                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-cyan-200'
+                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-black-700'
                     />
                 </div>
 
@@ -125,7 +125,7 @@ const Signup = () => {
                 <div className="mb-5">
                     <input
                         type="password"
-                        placeholder='Password'
+                        placeholder='Password (min 6 character)'
                         value={userSignup.password}
                         onChange={(e) => {
                             setUserSignup({
@@ -133,8 +133,9 @@ const Signup = () => {
                                 password: e.target.value
                             })
                         }}
-                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-cyan-200'
+                        className='bg-cyan-50 border border-cyan-200 px-2 py-2 w-96 rounded-md outline-none placeholder-slate-800'
                     />
+                    
                 </div>
 
                 {/* Signup Button  */}
@@ -142,14 +143,14 @@ const Signup = () => {
                     <button
                         type='button'
                         onClick={userSignupFunction}
-                        className='bg-cyan-500 hover:bg-cyan-600 w-full text-white text-center py-2 font-bold rounded-md '
+                        className='transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ... w-full text-white text-center py-2 font-bold rounded-md '
                     >
                         Signup
                     </button>
                 </div>
 
                 <div>
-                    <h2 className='text-black'>Have an account <Link className=' text-cyan-500 font-bold' to={'/login'}>Login</Link></h2>
+                    <h2 className='text-black'>Have an account <Link className=' text-blue-800 font-bold' to={'/login'}>Login</Link></h2>
                 </div>
 
             </div>

@@ -17,12 +17,8 @@ const category = [
         name: 'shoes'
     },
     {
-        image: 'https://cdn-icons-png.flaticon.com/256/12114/12114279.png',
-        name: 'home'
-    },
-    {
-        image: 'https://cdn-icons-png.flaticon.com/256/11946/11946316.png',
-        name: 'books'
+        image: 'https://cdn-icons-png.flaticon.com/256/8174/8174424.png',
+        name: 'jacket'
     }
 ]
 
