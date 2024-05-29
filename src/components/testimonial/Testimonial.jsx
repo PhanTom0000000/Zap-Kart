@@ -30,7 +30,7 @@ const Testimonial = () => {
                                 {/* <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
                                 {/* <span className="inline-block h-1 w-10 rounded bg-cyan-500 mt-6 mb-4" /> */}
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Bhaskar Paul</h2>
-                                <p className="text-gray-500">Develeoper</p>
+                                <p className="text-gray-500">Developer</p>
                             </div>
                         </div>
 

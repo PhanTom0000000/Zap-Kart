@@ -25,7 +25,7 @@ const Track = () => {
                             </svg>
 
                             <h2 className="title-font font-medium text-lg text-gray-900" >Premium Shoes</h2>
-                            <p className="leading-relaxed">Best Quality comfotable Shoes
+                            <p className="leading-relaxed">Best Quality comfortable Shoes
                             </p>
                         </div>
                     </div>
